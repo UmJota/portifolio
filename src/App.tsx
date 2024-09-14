@@ -1,7 +1,7 @@
 import Sidebar from './containers/Sidebar'
 import About from './containers/About'
-import Project from './containers/Project'
 import GlobalStyle, { Container } from './styles'
+import Projects from './containers/Projects'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Sidebar />
         <main>
           <About />
-          <Project />
+          <Projects />
         </main>
       </Container>
     </>
