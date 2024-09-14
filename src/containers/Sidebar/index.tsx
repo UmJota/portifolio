@@ -1,9 +1,22 @@
+import Avatar from '../../components/Avatar'
 import Title from '../../components/Title/index'
+import Text from '../../components/Text'
+
+import { Description, ButtonTheme, SidebarContainer } from './styles'
 
 const Sidebar = () => (
   <aside>
-    <img src="https://github.com/UmJota.png" />
-    <Title fontSize={20}>Jota</Title>
+    <SidebarContainer>
+      <Avatar />
+      <Title fontSize={20}>Jota</Title>
+      <Text type="secundario" fontSize={16}>
+        UmJota
+      </Text>
+      <Description type="principal" fontSize={12}>
+        Engenheiro Front-End
+      </Description>
+      <ButtonTheme>Trocar tema</ButtonTheme>
+    </SidebarContainer>
   </aside>
 )
 
